@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="chat">
+    <h3><%= params[:question] %></h3>
+    <div class="person">
+      <p> - me</p>
+    </div>
+  </div>
+  <div class="chat">
+    <h3><%= @answer %></h3>
+    <div class="person">
+      <p> - dumb coach</p>
+    </div>
+  </div>
+
+
+  <p class="link"><%= link_to "You wanna say something to him again?", ask_path  %></p>
+</div>

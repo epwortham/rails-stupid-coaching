@@ -1,0 +1,13 @@
+<div class="container">
+  <form action="/answer" method="get">
+    <input
+      class="form-control"
+      type="text"
+      name="question"
+      value="<%= params[:question] %>"
+      placeholder="Well what do you want?">
+    <input type="submit" value="Ask!" class="btn btn-primary">
+  </form>
+</div>
+
+<%# i added method get %>
